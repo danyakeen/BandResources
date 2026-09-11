@@ -1,0 +1,4 @@
+Backend/workspace/
+node_modules/
+package-lock.json
+Backend/services/easyocr/

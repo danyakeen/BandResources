@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.submit-btn-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: blue;
+    fill: white ;
+    /* position: relative; */
+}
+
+.container {
+    display: flex;
+    /* position: absolute; */
+}

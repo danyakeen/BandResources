@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+}
+
+:root {
+    --diameter: 36px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.user-select {
+    user-select: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.fileinput {
+    display: none;
+}
+
+.promptbox {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+
+    border: 5px #ff0000 solid;
+}
+
+.attach-btn-bg {
+    height: var(--diameter);
+    width: var(--diameter);
+    border-radius: 24%;
+
+    border: 2px #757d97be solid;
+
+}
+
+.submit-btn-bg {
+
+    height: var(--diameter);
+    width: var(--diameter);
+    border-radius: 50%;
+    background-color: #3964fe;
+    fill: #fff;
+}
+.submit-btn {
+    margin-left: 0%;
+}
+.prompt-bar {
+    display: flex;
+    gap: 5px;
+    width: 40%;
+    background-color: #e0e7ff;
+    border-radius: 12px;
+}
+
+/* .prompt-bar {
+    bottom: 0;
+    position:sticky;
+} */
